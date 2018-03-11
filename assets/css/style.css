@@ -52,7 +52,6 @@ h4 {
 
 }
 
-
 header {
     width: 100%;
     background-color: #ffffff;
@@ -292,52 +291,86 @@ footer {
     }
     #box3 {
         max-width:100%;
-        width:100%;
-        
-       
+        width:650px;
         margin:0px;
     }
     .picture {
         width:48%;
     }
     #small-box {
-        width: 97.5%;
+        width: 650px;
         margin:140px 0px 100px 0px;
         top:30px;
     }
     .wrapper {
-        max-width:95%;
+        max-width:700px;
     }
     #box1 {
         margin-bottom:0px;
-        max-width:100%;
+        max-width:650px;
        
     }
     #box2 {
         margin-bottom:0px;
         max-width:100%;
+        width:650px;
        
     }
-    
+    h2 {
+        padding:15px 0px;
+    }
+    form {
+        width:634px;
+    }
+    #pictureContainer {
+        width:672px;
+    }
 
 }
 
 @media screen and (max-width: 640px) {
     header {
-        width: 100%;
+        width: 640px;
     }
 
     h1 {
         width: 100%;
         text-align: center;
+        padding:30px 0px;
+    }
+    nav {
+        margin:20px auto;
+        width:100%;
+        text-align:center;
+    }
+    .wrapper {
+        max-width:640px;
     }
 
     #box1, #box2, #box3 {
         margin-top: 50px;
+        max-width:535px;
+        width:535px;
     }
 
-    a:last-child {
-        margin-right: 180px;
+    #small-box {
+        width:535px;
+
+    }
+
+    #boxContainer {
+        padding:0 25px;
+    }
+    #pictureContainer {
+        padding:0px;
+        width:550px;
+    }
+    form {
+        width:520px;
+    }
+    a{
+        padding: 0 50px;
+        margin:0px;
     }
 
 }
