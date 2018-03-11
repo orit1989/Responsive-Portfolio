@@ -14,7 +14,7 @@ h1 {
     padding: 30px;
     font-size: 30px;
     font-weight: bold;
-    float:left;
+    /* float: left; */
 }
 
 h2 {
@@ -107,7 +107,7 @@ input {
     border: 2px solid #cccccc;
     padding: 1%;
     font-size: 16px;
-    /* width: 626px; */
+  
 }
 
 textarea {
@@ -117,7 +117,7 @@ textarea {
     height: 180px;
     font-size: 16px;
     padding:1%;
-    /* width: 640px; */
+   
 }
 
 button {
@@ -252,7 +252,6 @@ footer {
     #box1 {
         max-width: 430px;
         width: 100%;
-        /* margin: o auto 100px auto; */
         margin-right: 4%;
     }
 
@@ -292,8 +291,9 @@ footer {
         width: 100%;
     }
     #box3 {
-        width:100%;
         max-width:100%;
+        width:100%;
+        
        
         margin:0px;
     }
@@ -310,7 +310,7 @@ footer {
     }
     #box1 {
         margin-bottom:0px;
-        max-width:97.5%;
+        max-width:100%;
        
     }
     #box2 {
@@ -320,12 +320,24 @@ footer {
     }
     
 
-
 }
 
 @media screen and (max-width: 640px) {
     header {
         width: 100%;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #box1, #box2, #box3 {
+        margin-top: 50px;
+    }
+
+    a:last-child {
+        margin-right: 180px;
     }
 
 }
